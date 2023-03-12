@@ -1,0 +1,41 @@
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    button {
+        justify-self: flex-end;
+        svg{
+            transition: transform 150ms ease-in;
+        }
+        &:hover{
+            svg{
+                transform: rotate(30deg);
+            }
+        }
+    }
+}
+
+.icon {
+    width: 20px;
+    margin-right: 13px;
+    path {
+        fill: var(--color-silver);
+    }
+}
+
+.turnCard{
+    justify-self: center;
+    display: flex;
+    align-items: center;
+    background-color: var(--color-semi-dark-navy);
+    box-shadow: inset 0px -4px 0px var(--box-shadow-color);
+    border-radius: 10px;
+    padding: 16px 30px;
+    font-size: var(--font-size-heading-xs);
+    font-weight: var(--font-weight-heading-xs);
+    letter-spacing: var(--letter-spacing-heading-xs);
+    text-transform: uppercase;
+    color: var(--color-silver);
+}
+
+

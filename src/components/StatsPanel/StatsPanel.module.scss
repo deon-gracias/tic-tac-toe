@@ -1,0 +1,40 @@
+.wrapper {
+    display: flex;
+    color: var(--color-dark-navy);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+.statCard{
+    background-color: var(--color-light-blue);
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 13px 0;
+}
+
+.secondCard {
+    background-color: var(--color-silver);
+}
+
+.thirdCard {
+    background-color: var(--color-light-yellow);
+}
+
+.statTitle{
+    font-size: var(--font-size-body);
+    font-weight: var(--font-weight-body);
+    letter-spacing: var(--letter-spacing-body);
+    margin: 0;
+    text-transform: uppercase;
+    margin-bottom: 6px;
+}
+
+.statValue{
+    font-size: var(--font-size-heading-m);
+    font-weight: var(--font-weight-heading);
+    letter-spacing: var(--letter-spacing-heading-m);
+}

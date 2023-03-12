@@ -1,0 +1,93 @@
+.wrapper {
+    // display: flex;
+    // flex-direction: column;
+    // align-items: center;
+    max-width: 460px;
+    // width: 100%;
+    margin: 0 auto;
+    > button:first-of-type {
+        margin-bottom: 20px;
+    }
+}
+
+.buttonsWrapper {
+    display: flex;
+    width: 100%;
+}
+
+.markPanel {
+    background-color: var(--color-semi-dark-navy);
+    border-radius: 15px;
+    box-shadow: inset 0px -8px var(--box-shadow-color);
+    color: var(--color-silver);
+    text-transform: uppercase;
+    padding: 24px 24px 32px;
+    width: 100%;
+    margin: 40px 0;
+    text-align: center;
+}
+
+.markWrapper {
+    background-color: var(--color-dark-navy);
+    padding: 9px;
+    margin: 24px 0 17px;
+    display: flex;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.header {
+    font-size: var(--font-size-heading-xs);
+    font-weight: var(--font-weight-heading);
+    letter-spacing: var(--letter-spacing-heading-xs);
+    color: var(--color-silver);
+    margin: 0;
+}
+
+.info {
+    font-size: var(--font-size-body);
+    font-weight: var(--font-weight-body);
+    letter-spacing: var(--letter-spacing-body);
+    opacity: 0.5;
+    margin: 0;
+}
+
+.markButton{
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    width: 100%;
+    border-radius: 10px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 11px 0;
+    transition: 300ms;
+
+    &:not(&Selected):hover{
+        background-color: rgba(168, 191, 201, 0.05);
+    }
+
+    &Selected {
+        background-color: var(--color-silver);
+        .markIcon {
+            path {
+                fill: var(--color-dark-navy);
+            }
+        }
+    }
+}
+
+.markIcon {
+    width: 32px;
+    height: auto;
+    path {
+        fill: var(--color-silver);
+    }
+}
+
+.logoWrapper {
+    display: flex;
+    justify-content: center;
+}

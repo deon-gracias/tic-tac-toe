@@ -1,0 +1,50 @@
+@keyframes fadeIn {
+    0%{
+        opacity: 0;
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(1.1);
+    }
+    100%{
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+.boardCard {
+    width: 100%;
+    max-width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color-semi-dark-navy);
+    box-shadow: inset 0px -8px 0px var(--box-shadow-color);
+    padding: 38px;
+    border-radius: 15px;
+    @media(max-width: 600px) {
+        padding: 24px;
+    }
+    &:hover .hoveredMarkImage{
+        opacity: 1;
+    }
+    &:hover .hoveredMarkImageHidden{
+        opacity: 0;
+    }
+}
+
+.notMarked { 
+    cursor: pointer;
+}
+
+.hoveredMarkImage {
+    transition: opacity 100ms ease-in-out;
+    opacity: 0;
+}
+
+.isBlocked {
+    opacity: 0 !important;
+}
+
+.markImage{
+    animation: fadeIn 350ms ease-in-out;
+}

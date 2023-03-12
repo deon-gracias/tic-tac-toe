@@ -1,0 +1,19 @@
+.buttonsWrapper{
+    button:first-of-type {
+        margin-right: 16px;
+    }
+}
+
+.header{
+    text-transform: uppercase;
+    font-size: var(--font-size-heading-l);
+    font-weight: var(--font-weight-heading);
+    letter-spacing: var(--letter-spacing-heading-l);
+    margin: 0 0 32px;
+    color: var(--color-silver);
+    @media(max-width: 600px) {
+        margin: 0 0 24px;
+        font-size: var(--font-size-heading-m);
+        letter-spacing: var(--letter-spacing-heading-m);
+    }
+}

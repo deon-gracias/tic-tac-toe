@@ -1,0 +1,9 @@
+.wrapper {
+    width: 460px;
+    @media(max-width: 600px) {
+        width: 330px;
+    }
+    >div{
+        margin-bottom: 20px;
+    }
+}
