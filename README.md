@@ -21,8 +21,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [github.com/mlatka9/tic-tac-toe-game](https://github.com/mlatka9/tic-tac-toe-game)
-- Live Site URL: [click here](https://cranky-ride-bdfbbf.netlify.app/)
+- Solution URL: [github.com/deon-gracias/tic-tac-toe](https://github.com/deon-gracias/tic-tac-toe)
+- Live Site URL: [click here](https://tic-tac-toe-nine-inky.vercel.app/)
 
 ## My process
 
@@ -34,7 +34,4 @@ Users should be able to:
 - [React](https://reactjs.org/) - JS library
 - [CSS Modules](https://github.com/css-modules/css-modules) - For styles
 
-## Author
 
-- GitHub - [mlatka9](https://github.com/mlatka9)
-- Frontend Mentor - [@mlatka9](https://www.frontendmentor.io/profile/mlatka9)
