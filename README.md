@@ -13,7 +13,6 @@ Users should be able to:
 - See hover states for all interactive elements on the page
 - Play the game either solo vs the computer or multiplayer against another person
 
-
 ### Screenshot
 
 ![layout](https://user-images.githubusercontent.com/72691985/153424430-c208eb87-20cb-41c0-8bdd-5538a43648d6.PNG)
@@ -25,6 +24,10 @@ Users should be able to:
 - Live Site URL: [click here](https://tic-tac-toe-nine-inky.vercel.app/)
 
 ## My process
+
+### AI Model
+
+- MinMax Algorithm with Alpha Beta Pruning
 
 ### Built with
 
